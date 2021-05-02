@@ -13,9 +13,7 @@
 <img src="resources/screenshots/scatter.png">
 
 
-Run the notebook from E9-4: Mean Shift. Try to experiment the solution with various number of clusters. Observed the process of implementation of the Mean Shift algorithm and answer the questions:
-
-What is the difference between k-means and mean shift?
+### What is the difference between k-means and mean shift?
 
 The Mean shift algorithm is an centroid-based algorithm. This means that the goal of Mean shift is to find the center points of the data and in turn reveals the clusters.
 
@@ -23,6 +21,6 @@ K-means on the other hand works by trying to group the data into k clusters, whe
 
 Another thing that's different between k-means and mean shift, is that k-means needs to know how many groups there are in the data before it can start when in Mean shift can just start without.
 
-In which occasions would you prefer to use the Mean shift algorithm?
+### In which occasions would you prefer to use the Mean shift algorithm?
  
 We would prefer to use Mean shift, when it’s not obvious from the data how many groups the data have. 
